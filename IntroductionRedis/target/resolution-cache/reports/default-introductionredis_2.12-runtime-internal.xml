@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="introductionredis_2.12"
+		revision="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20171218202519"/>
+	<dependencies>
+		<module organisation="redis.clients" name="jedis">
+			<revision name="2.8.2" status="release" pubdate="20160722074411" resolver="jcenter" artresolver="jcenter" homepage="https://github.com/xetorthio/jedis" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="MIT" url="http://github.com/xetorthio/jedis/raw/master/LICENSE.txt"/>
+				<metadata-artifact status="successful" details="" size="5851" time="532" location="C:\Users\ajana\.ivy2\cache\redis.clients\jedis\ivy-2.8.2.xml" searched="true" original-local-location="C:\Users\ajana\.ivy2\cache\redis.clients\jedis\ivy-2.8.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/redis/clients/jedis/2.8.2/jedis-2.8.2.pom"/>
+				<caller organisation="default" name="introductionredis_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jedis" type="jar" ext="jar" status="successful" details="" size="540634" time="1717" location="C:\Users\ajana\.ivy2\cache\redis.clients\jedis\jars\jedis-2.8.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/redis/clients/jedis/2.8.2/jedis-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-pool2">
+			<revision name="2.4.2" status="release" pubdate="20150802164200" resolver="jcenter" artresolver="jcenter" homepage="http://commons.apache.org/proper/commons-pool/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="successful" details="" size="11082" time="448" location="C:\Users\ajana\.ivy2\cache\org.apache.commons\commons-pool2\ivy-2.4.2.xml" searched="true" original-local-location="C:\Users\ajana\.ivy2\cache\org.apache.commons\commons-pool2\ivy-2.4.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.pom"/>
+				<caller organisation="redis.clients" name="jedis" conf="default, compile, runtime, master" rev="2.4.2" rev-constraint-default="2.4.2" rev-constraint-dynamic="2.4.2" callerrev="2.8.2"/>
+				<artifacts>
+					<artifact name="commons-pool2" type="jar" ext="jar" status="successful" details="" size="111969" time="1401" location="C:\Users\ajana\.ivy2\cache\org.apache.commons\commons-pool2\jars\commons-pool2-2.4.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.4" status="release" pubdate="20171011020456" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\ajana\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.pom"/>
+				<caller organisation="default" name="introductionredis_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5247152" time="0" location="C:\Users\ajana\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

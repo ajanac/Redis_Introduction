@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="introductionredis$sources_javadoc_2.12"
+		revision="1.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20171218202527"/>
+	<dependencies>
+		<module organisation="redis.clients" name="jedis">
+			<revision name="2.8.2" status="release" pubdate="20160722074411" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xetorthio/jedis" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="MIT" url="http://github.com/xetorthio/jedis/raw/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4073" time="0" location="C:\Users\ajana\.ivy2\cache\redis.clients\jedis\ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/redis/clients/jedis/2.8.2/jedis-2.8.2.pom"/>
+				<caller organisation="default" name="introductionredis$sources_javadoc_2.12" conf="test, compile, runtime" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jedis" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="921666" time="1385" location="C:\Users\ajana\.ivy2\cache\redis.clients\jedis\docs\jedis-2.8.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/redis/clients/jedis/2.8.2/jedis-2.8.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="jedis" type="jar" ext="jar" status="no" details="" size="540634" time="0" location="C:\Users\ajana\.ivy2\cache\redis.clients\jedis\jars\jedis-2.8.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/redis/clients/jedis/2.8.2/jedis-2.8.2.jar"/>
+					</artifact>
+					<artifact name="jedis" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="152653" time="717" location="C:\Users\ajana\.ivy2\cache\redis.clients\jedis\srcs\jedis-2.8.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/redis/clients/jedis/2.8.2/jedis-2.8.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-pool2">
+			<revision name="2.4.2" status="release" pubdate="20150802164200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-pool/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<metadata-artifact status="no" details="" size="10521" time="0" location="C:\Users\ajana\.ivy2\cache\org.apache.commons\commons-pool2\ivy-2.4.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.pom"/>
+				<caller organisation="default" name="introductionredis$sources_javadoc_2.12" conf="test, compile, runtime" rev="2.4.2" rev-constraint-default="2.4.2" rev-constraint-dynamic="2.4.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-pool2" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="292396" time="1732" location="C:\Users\ajana\.ivy2\cache\org.apache.commons\commons-pool2\docs\commons-pool2-2.4.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-pool2" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="117433" time="720" location="C:\Users\ajana\.ivy2\cache\org.apache.commons\commons-pool2\srcs\commons-pool2-2.4.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2-sources.jar"/>
+					</artifact>
+					<artifact name="commons-pool2" type="jar" ext="jar" status="no" details="" size="111969" time="0" location="C:\Users\ajana\.ivy2\cache\org.apache.commons\commons-pool2\jars\commons-pool2-2.4.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.4" status="release" pubdate="20171011020456" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\ajana\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.pom"/>
+				<caller organisation="default" name="introductionredis$sources_javadoc_2.12" conf="test, compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/"/>
+				<artifacts>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="30623147" time="0" location="C:\Users\ajana\.ivy2\cache\org.scala-lang\scala-library\docs\scala-library-2.12.4-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5247152" time="0" location="C:\Users\ajana\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="991177" time="0" location="C:\Users\ajana\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
